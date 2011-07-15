@@ -1,5 +1,35 @@
 Revision history for Perl extension FTN::Packet
 
+0.13  Fri Jul 15 2011  
+    - Correct numbers in test scripts.
+    - Updated the FTN::Packet TODO file.
+    - Reorganize documentation in lib/FTN/Packet.pm: moved the ACKNOWLEDGEMENT
+      section, added a BUGS section, and added to the SUPPORT section.
+
+0.12  Mon Jul 11 2011 17:11 
+    - Correct line for TODO file in MANIFEST.
+    - Correct grep line number 355 in Packet.pm.
+    - Set scope for ISA, EXPORT, and EXPORT_OK in Packet.pm.
+    - Some cleanup of white space and comments in Packet.pm.
+
+0.11  Mon Jul 11 2011 15:26
+    - Correct POD email links in Packet.pm.
+    - Rewrite grep at line 356 in Packet.pm.
+    - Corrections for EXPORT_OK in Packet.pm.
+    - Update RJC copyright years to include 2011.
+    - Localize usage of separator value in Packet.pm.
+    - Explicitly set scope for $VERSION, $PKT, and $nmesgs in Packet.pm.
+    - Correct where code ends in Packet.pm by moving the "1;" to line 398.
+
+0.10  Mon Jul 11 2011 12:30
+    - Explicitly use warnings in Packet.pm.
+    - Make loop iterators in Packet.pm lexical.
+    - Correct binmode call at line 332 of Packet.pm
+    - Use three argument version of open() in Packet.pm.
+    - Some general cleanup of white space in Packet.pm.
+    - Correct misspelling of ftnscdate to ftscdate in Packet.pm.
+    - Correct year number adjustment from 2000 to 1900 in Packet.pm.
+
 0.09  Sun Sep 05 2010
     - Change to using the TEST modules for testing.
     - Change how Author copyright years is listed.
