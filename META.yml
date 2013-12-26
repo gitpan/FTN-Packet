@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               FTN-Packet
-version:            0.20
+version:            0.21
 abstract:           Reading or writing Fidonet Technology Networks (FTN) packets.
 author:
     - Robert James Clay <jame@rocasa.us>
